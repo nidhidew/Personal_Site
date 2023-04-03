@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+    nav,article{
+        width: 100%;
+        height: auto;
+    }
+}
+header{
+    background-image: linear-gradient(45deg,white,red,blue,violet);
+    color: black;
+    padding: 2%;
+}
+.topnav{
+    overflow: hidden;
+    background-color: bisque;
+}
+.topnav a{
+    float: left;
+    color: coral;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+.topnav a:hover{
+    background-color: burlywood;
+    color: black;
+}
+.topnav a.active{
+    background-color: beige;
+    color: brown;
+}
+article{
+    float: left;
+    padding: 60px;
+    width: 100%;
+    background-color:turquoise;
+    height: 10%;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: thistle;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
